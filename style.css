@@ -1,0 +1,377 @@
+.saylani-log {
+    width: 200px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em;
+
+    position: relative;
+
+}
+
+.english {
+    width: 100%;
+    height: 20px;
+
+    position: fixed;
+    top: 0px;
+
+    background-color: #e5e3e3;
+}
+.info{
+    display: flex;
+    width: 40%;
+    font-size: 0.8em;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+
+.english img {
+    width: 15px;
+    height: 15px;
+
+
+
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    margin-top: 20px;
+    display: block;
+
+
+}
+
+.dropdown-content a:hover {
+    background-color: #8dc63f;
+    color: #ffffff;
+
+}
+
+.saylani-log {
+    position: relative;
+    left: 60px;
+
+
+}
+
+.button {
+    position: relative;
+    right: -200px;
+    margin: 10px;
+
+}
+
+.button>button {
+    margin: 5px;
+    border-radius: 7px;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 4px -2px gray;
+    z-index: 2;
+  
+    top: 20px;
+}
+
+.navbar-nav {
+    position: fixed;
+    left: 200px;
+    width: 100%;
+    
+
+}
+
+
+.dropdown>a {
+    position: relative;
+    top: 15px;
+    font-size: 1.1em;
+    left: 145px;
+}
+
+.blue {
+    background-color: #0066b3;
+    color: #ffffff;
+    border: none;
+
+}
+.Donors{
+    animation-name:  Donors;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+    @keyframes Donors {
+        from{
+            color:#0066b3;
+
+        }
+        to{
+                color:#8dc63f;
+            }
+        
+    }
+
+
+.blue>a,
+.green>a {
+    color: #ffffff;
+}
+
+.green {
+    background-color: #8dc63f;
+    color: #ffffff;
+    border: none;
+
+}
+
+
+
+.dropdown>a:hover {
+    border-bottom: #8dc63f 2px solid;
+
+
+}
+
+
+.blue:hover,
+.green:hover {
+    font-size: 1.2em;
+    width: 160px;
+  
+}
+
+
+.language{
+    position: relative;
+    z-index: 6;
+    width: 70px;
+    left: 620px;
+    background-color: #fafafa;
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+
+}
+.lang-drop{
+    display: none;
+
+}
+.language:hover{
+    border-left: 2px solid black ;
+    border-right: 2px solid black ;
+    font-size: 1.01em;
+    background-color: #ffffff;
+}
+.language:hover .lang-drop{
+    display: block;
+    
+}
+.lang-drop{
+position:absolute;
+    width: 70px;
+    height: 50px;
+    background-color: #fafafa;
+    border: none;
+    z-index: 18;
+   
+
+}
+.lang-drop div{
+    font-size: 1.2em;
+
+}.lang-drop a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    .saylani-log {
+        position: fixed;
+        left: 10px;
+        top: 0px;
+    }
+
+    .dropdown {
+        position: relative;
+        right: 300px;
+
+
+    }
+
+.english {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+
+
+}
+.english span{display: flex;
+width: 100%;
+align-items: center;
+left: 0px;
+font-size: 0.7em;
+}
+.english span>img{
+    width: 10px;
+    height: 10px;
+} 
+
+
+
+    .saylani-log {
+        width: 200px;
+        position: relative;
+
+    }
+
+    .blue:hover,
+    .green:hover {
+        font-size: 1.2em;
+        width: 84%;
+
+    }
+
+    .navbar-nav {
+        position: relative;
+
+        width: 100%;
+        background-color: #f1f1f1;
+
+    }
+
+
+    .dropdown a:hover .dropdown-content {
+        margin-top: 0px;
+        display: block;
+
+
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+        font-size: 0.7em;
+
+        position: relative;
+
+    }
+
+    .dropdown-content {
+        position: absolute;
+        left: 200px;
+        z-index: 1;
+
+
+    }
+
+
+    .dropdown>a:hover {
+        border-bottom: #8dc63f 2px solid;
+        width: 140px;
+    }
+
+    .button>button {
+        width: 80%;
+
+        position: relative;
+        left: 0px;
+
+
+    }
+
+    .button {
+        position: relative;
+        left: -170px;
+        margin-top: 20px;
+    }
+
+    .blue {
+        background-color: #0066b3;
+        color: #ffffff;
+        border: none;
+
+    }
+
+    .blue>a,
+    .green>a {
+        color: #ffffff;
+    }
+
+    .green {
+        background-color: #8dc63f;
+        color: #ffffff;
+        border: none;
+
+    }
+
+
+
+
+
+
+}
