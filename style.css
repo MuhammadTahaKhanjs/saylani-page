@@ -253,14 +253,15 @@
 .write {
     position: relative;
     top: 200px;
-    width: 40%;
+    width: 100%;
+    
 }
 
 .mulana {
     position: relative;
     top: 140px;
 
-    left: 170px;
+    left: 0px;
 
 }
 
@@ -276,7 +277,7 @@
 
 .material {
     display: flex;
-    width: 90%;
+    width: 100%;
     position: relative;
     top: 250px;
     left: 60px;
@@ -309,20 +310,20 @@
 .red {
     position: relative;
     top: 455px;
-    left: -450px;
+    left: -550px;
     width: 60px;
-    height: 60px;
+    height: 50px;
     background-color: rgba(183, 183, 246, 92%);
-    border-radius: 200px;
+    border-radius:1000px;
 }
 
 .pink {
     position: relative;
     top: 180px;
     width: 60px;
-    height: 60px;
+    height: 50px;
     background-color: rgba(183, 183, 246, 92%);
-    border-radius: 200px;
+    border-radius: 800px;
 }
 
 .explore {
@@ -337,7 +338,7 @@
     align-items: center;
 }
 
-.explore>span {}
+
 
 .wellcome {
     position: relative;
@@ -367,10 +368,10 @@
 }
 
 .pictures {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin:auto 0;
+    margin: auto 0;
     position: relative;
     top: 300px;
     left: 60px;
@@ -385,10 +386,13 @@
     border-radius: 10px;
 
 }
-.first .Donate,.second .Donate,.third .Donate{
+
+.first .Donate,
+.second .Donate,
+.third .Donate {
     position: relative;
-    z-index: 4;
-    width:300px ;
+    z-index: 1;
+    width: 300px;
     height: 25px;
     background-color: #8dc63f;
     top: 192px;
@@ -398,27 +402,130 @@
     justify-content: center;
     align-content: center;
     border-radius: 5px;
-color: #ffffff;
-text-align: center;
+    color: #ffffff;
+    text-align: center;
 }
-.Zakat{
+
+.Zakat {
     position: relative;
     top: -60px;
+
+    width: 100%;
     left: 5px;
     font-weight: bold;
-    color:#ffffff;
+    color: #ffffff;
 }
-.first>img:hover,.second>img:hover,.third>img:hover{
+
+.first>img:hover,
+.second>img:hover,
+.third>img:hover {
     width: 370px;
     height: 210px;
 }
 
+.background {
+    background-image: url("pictures/background.webp");
+    background-repeat: repeat;
+    background-color: #dbd9d9;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 350px;
 
 
 
 
+}
+
+.background .img {
+    width: 230px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.xmail,
+.number-whatsap,
+.youtube,
+.facebook {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    border-radius: 5px;
+    left: -190px;
+}
+
+ul>li {
+    color: #ffffff;
+    list-style: none;
+}
+
+.white-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -30px;
+    left: 100px;
+    font-size: 0.8em;
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.line,
+.linetwo,
+.linethree {
+    position: relative;
+    border-bottom: 1px solid #dbd9d9;
+  
+    width:60%;
 
 
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-15px;
+}
+.acca{
+    width: 50px;
+    height: 70px;
+    position: relative;
+    top: 0px;
+}
+.linetwo{
+    position: relative;
+    top: 20px;
+
+}
+.linethree {
+    position: relative;
+top: 40px;
+}
+.lines p{
+    font-size: 0.8em;
+    position: relative;
+    top: 30px;
+    color: #fafafa;
+}
+
+.trust{
+    font-size: 0.9em;
+    position: relative;
+    top: 60px;
+color: #f1f1f1;
+text-align: center;
+}
 
 
 
@@ -462,7 +569,23 @@ text-align: center;
         width: 100%;
 
 
-    }
+    }.xmail,
+.number-whatsap,
+.youtube,
+.facebook {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    border-radius: 5px;
+    left: -100px;
+}
+.img{
+    position: relative;
+    left: 100px;
+    width: 120px;
+    height: 90px;
+}
 
     .english span {
         display: flex;
@@ -483,6 +606,8 @@ text-align: center;
         width: 200px;
         position: relative;
 
+    }.background{
+        height: 800px;
     }
 
     .blue:hover,
@@ -490,6 +615,33 @@ text-align: center;
         font-size: 1.2em;
         width: 84%;
 
+    }
+    .white-content {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        top: 90px;
+        left: 100px;
+        font-size: 0.5em;
+    }
+
+
+    
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+
+}
+    .acca{
+        width: 50px;
+        height: 70px;
+        position: relative;
+        top: 0px;
     }
 
     .navbar-nav {
@@ -503,6 +655,7 @@ text-align: center;
     .red {
         position: relative;
         left: -400px;
+        display: none;
     }
 
 
@@ -558,6 +711,7 @@ text-align: center;
         color: #ffffff;
         border: none;
 
+
     }
 
     .blue>a,
@@ -609,6 +763,15 @@ text-align: center;
         width: 260px;
         height: 210px;
     }
+
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 
 }
